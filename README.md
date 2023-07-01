@@ -8,4 +8,4 @@
     <li>The project should include at least 50 cities to work with.</li>
   </ul>
 
-  <img src="screenshots/Screenshot_20230630-023424.jpg" alt="Login" width="200" style="margin-right: 10px;">
+  <img src="screenshots/GUI.PNG" alt="GUI" width="600" style="margin-right: 10px;">
