@@ -3,9 +3,10 @@
 
   <h2>Implementation Details</h2>
   <ul>
-    <li>The program should allow the user to choose the cities through mouse input or keyboard.</li>
-    <li>The shortest path between the selected cities should be displayed on the map.</li>
-    <li>The project should include at least 50 cities to work with.</li>
+    <li>The project is implemented with Java and scene builder.</li>
+    <li>The program allows the user to choose the cities through mouse input or keyboard.</li>
+    <li>The shortest path between the selected cities is displayed on the map.</li>
+    <li>The project includes all 50 states to work with.</li>
   </ul>
 
-  <img src="screenshots/GUI.PNG" alt="GUI" width="600" style="margin-right: 10px;">
+  <img src="screenshots/GUI.PNG" alt="GUI" width="800" style="margin-right: 10px;">
