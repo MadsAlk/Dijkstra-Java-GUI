@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="anchor" prefHeight="800.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1279.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Algorithms/mapusaEmp.png" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="CB_from" layoutX="1334.0" layoutY="63.0" prefHeight="26.0" prefWidth="211.0" />
+      <ComboBox fx:id="CB_to" layoutX="1334.0" layoutY="126.0" prefHeight="26.0" prefWidth="210.0" />
+      <Label layoutX="1334.0" layoutY="45.0" text="From" />
+      <Label layoutX="1334.0" layoutY="108.0" text="To" />
+      <TextArea fx:id="TA_path" layoutX="1334.0" layoutY="211.0" prefHeight="274.0" prefWidth="262.0" />
+      <TextField fx:id="TF_distance" layoutX="1334.0" layoutY="538.0" prefHeight="26.0" prefWidth="257.0" />
+      <Label layoutX="1213.0" layoutY="174.0" text="Path" />
+      <Label layoutX="1441.0" layoutY="516.0" text="Distance" />
+      <JFXButton fx:id="btn_reset" layoutX="1496.0" layoutY="608.0" onAction="#Reset" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: #f3b05a;" text="Reset" />
+      <JFXButton fx:id="btn_find" layoutX="1371.0" layoutY="608.0" onAction="#Find" prefHeight="26.0" prefWidth="76.0" style="-fx-background-color: #f3b05a;" text="Find" />
+      <JFXButton fx:id="btn_table" layoutX="1408.0" layoutY="671.0" onAction="#ShowTable" prefHeight="26.0" prefWidth="112.0" style="-fx-background-color: #f3b05a;" text="Show Table" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="800.0" layoutX="1273.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="57.0" />
+   </children>
+</AnchorPane>
